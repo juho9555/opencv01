@@ -17,6 +17,11 @@
 - CMYK (청록, 자홍, 노랑, 검정)
 - HSV (색상, 채도, 명도)
 
+### 비트(bit)
+- 1 bit = 검정 또는 흰색
+- 8 bit = 0부터 255(흰색)까지 표현가능
+- 16 bit = 0 ~ 65535까지 표현가능 (색상이 더 부드러움)
+
 
 ## opencv 가상환경 설정
 
@@ -44,8 +49,3 @@ cv2.destroyAllWindows()
 - git commit "~~"로 git에 설명추가
 - github desktop 실행해 add new repository에서 /project/opencv01 파일 선택
 - changes 확인하고 push하기
-
-### 비트(bit)
-- 1 bit = 검정 또는 흰색
-- 8 bit = 0부터 255(흰색)까지 표현가능
-- 16 bit = 0 ~ 65535까지 표현가능 (색상이 더 부드러움)
