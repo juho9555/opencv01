@@ -21,8 +21,6 @@ image = cv2.line(image, (346, 175), (305, 167), line_color, 2, 1)
 image = cv2.line(image, (290, 166), (305, 167), line_color, 2, 1)
 image = cv2.line(image, (290, 166), (243, 172), line_color, 2, 1)
 
-image = cv2.circle(image, (290, 185), 15, color, 1, 1)
-image = cv2.circle(image, (350, 250), 7, color, 2, 1)
 
 #이미지 표출
 cv2.imshow('practice', image)
